@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wap{
+        border: 1px solid red;
+        width: 600px;
+        height: 600px;
+        text-align: center;
+        margin: auto;
+        background-image: url(https://image.freepik.com/free-photo/cosmetic-makeup-skincare-serum-product-beauty-spa-yellow-background_3544-1066.jpg);
+        }
+        h1{
+            color: rgb(13, 184, 214)
+        }
+    </style>
+    <script src="taphoa.js"></script>
+</head>
+<body>
+    <div class="wap">
+        <h1> Bán hàng tự động</h1> <br>
+        Loại nước:
+        <select id="loai_nuoc">
+            <option value=""></option>
+            <option value="nước_lọc"> nước_lọc</option>
+            <option value="coffee"> coffee </option>
+            <option value="trà_sữa">trà_sữa</option>
+            <option value="trà_xanh"> trà_xanh</option>
+        </select><br><br>
+        Trái cây:
+        <select id="trai_cay">
+            <option value=""></option>
+            <option value="cam"> cam</option>
+            <option value="chuối"> chuối </option>
+            <option value="bưởi">bưởi</option>
+        </select><br><br>
+        Nhập tiền:
+        <input type="number" id="tiền"></input> <br> <br>
+        <button id="thanhtoan" onclick="myfuction()">Thanh toán</button>
+        <p id="kq"></p>
+        </div>
+    </div>
+</body>
+</html>
